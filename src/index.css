@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    background-color: #1c0a22;
+    color: #fff1f2;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-romantic {
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+}
+
+.font-handwritten {
+  font-family: 'Caveat', cursive, sans-serif;
+}
